@@ -54,6 +54,8 @@
 	- git branch
 		 (Mostra todas as branchs dentro do repositório)
 	- não desenvolvemos ou fazemos testes na branch MAIN
+	- git branch -M <nome_de_outra_branch> 
+		(Cria uma branch e entra na branch criada)
 	
 27. Para sair da branch é
 	git checkout main
