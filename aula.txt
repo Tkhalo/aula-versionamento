@@ -65,5 +65,11 @@
 	- git show v1.0
 	- git push origin --tags
 31. Insert ou shift + insert> cola no git bash
+32. git clone
+	-Baixar e clonar um repositório de outra pessoa, para fazer uma colaboração
+	- git clone https://github...
+33. git branch
+	- Mostra todas as branchs dentro do repositório
+	- não desenvolvemos ou fazemos testes na branch MAIN
 
 
