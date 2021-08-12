@@ -51,6 +51,10 @@
 	git checkout -b <nova_branch>
 	- vai da branch main para <nova_branch>
 	- adiciona tudo ao github	git push origin <nova_branch>
+	- git branch
+		 (Mostra todas as branchs dentro do repositório)
+	- não desenvolvemos ou fazemos testes na branch MAIN
+	
 27. Para sair da branch é
 	git checkout main
 	git checkout master
@@ -68,8 +72,6 @@
 32. git clone
 	-Baixar e clonar um repositório de outra pessoa, para fazer uma colaboração
 	- git clone https://github...
-33. git branch
-	- Mostra todas as branchs dentro do repositório
-	- não desenvolvemos ou fazemos testes na branch MAIN
+
 
 
