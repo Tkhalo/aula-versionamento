@@ -1,3 +1,27 @@
 12/08/2021 
 
 # Versionamento
+
+1. Criar diretório onde guardaremos o conteúdo que vamos trabalhar, o código etc
+2. Criar pasta _aula-12-08-21_ que iremos colocar no github
+3. Iniciar o Git Bash dentro da pasta criada _aula-12-08-21_
+4. git init 
+	- cria-se um repositório .git, que fica oculta (em exibir selecione itens ocultos e extensões de nomes de arquivos)
+5. Dentro da pasta _aula-12-08-21_ cria-se um arquivo txt
+6. git status
+	- verifica quais arquivos foram alterados, criados. Todo o histórico
+7. git add
+	Com o git add . ou git add <nome do arquivo> adicionamos ao histórico do projeto, registra a alteração 
+	Pode-se adicionar um a um ou vários arquivos ao mesmo tempo
+8. git commit
+	salva as alterações. 
+	git commit -m "comentário"
+9. git log
+	visualizar todas as alterações feitas pelo usuário
+10. Cria-se um repositório online no github
+12. No repositório local (pc) informar a pasta remota:
+	git remote add origin https://github...
+13. git push
+	publicar as alterações feitas no repositório local para o remoto:
+	- git push -u origin master <OU main>
+14. adicionar um READMe
