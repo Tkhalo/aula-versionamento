@@ -50,7 +50,7 @@
 26. Criar uma branch
 	git checkout -b <nova_branch>
 	- vai da branch main para <nova_branch>
-	- adiciona tudo ao github	git push origin <nova_branch>
+	- adiciona tudo ao github, git add . --- commit ----	git push origin <nova_branch>
 	- git branch
 		 (Mostra todas as branchs dentro do repositório)
 	- não desenvolvemos ou fazemos testes na branch MAIN
