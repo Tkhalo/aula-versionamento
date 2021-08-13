@@ -1,0 +1,36 @@
+	Na parte 1 do trabalho em dupla, 1 colega cria um repositório no GitHub
+ e envia o pedido para o outro colega aceitar para colaboração do trabalho.
+
+	Agora na parte 2, o colega aceita a solicitação do GitHub enviada por
+e-mail e copia o code do repositório remoto.
+
+	Em uma pasta, de sua preferência, o colega abre o Git Bash e insere o 
+comando git clone e cola o endereço do code copiado e fecha o Git Bash.
+
+	Verifica se a pasta do repositório foi clonada corretamente na pasta
+previamente selecionada no passo anterior.
+
+	Dentro da pasta clonada, abrir o Git Bash. (Essa pasta já vem inicializada,
+logo não tem necessidade de fazer git init nem git remote, porque já veio remota.)
+
+	Foi criado a branch com o comando git branch e o nome dado para a branch: 
+git branch primeira-alteracao.
+
+	Foi aplicado o git branch para verificar que a branch foi criada. Mostra que 
+tem a main e a branch primeira-alteracao.
+
+	Com o comando git checkout primeira-alteracao foi trocado no Git Bash a main
+pela branch criada para que qualquer alteração feita seja nela e não na main.
+
+	Na pasta clonada, foi criado um arquivo de texto com o nome primeira-alteracao.txt
+e foram adicionadas todas essas informações que estão sendo lidas.
+
+	No Git Bash ainda aberto, aplicando o git status foi possível visualizar que este 
+arquivo foi criado.
+	
+	Realizou-se o git add . para adicionar a alteração no staging e depois o 
+git commit -m "Criando primeira alteração".
+
+	Com o comando: git push origin primeira-alteracao foi enviado este arquivo para
+o repositório remoto com essa alteração dentro da branch criada.
+
