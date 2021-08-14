@@ -39,6 +39,7 @@
 23. Stackoverflow  para dúvidas
 24. git pull
 	baixar a atualização do repositório remoto	
+	
 25. Criar arquivo .gitignore
 	o git ignore é um documento que gerencia arquivos que não se deseja publicar na nuvem
 	- Cria-se um bloco de notas (sem o txt), com a extensão .gitignore
@@ -47,19 +48,25 @@
 	- git add .
 	- git commit -m "gitignore"
 	- git push -u origin main
+	
 26. Criar uma branch
 	git checkout -b <nova_branch>
 	- vai da branch main para <nova_branch>
-	- adiciona tudo ao github	git push origin <nova_branch>
+	- adiciona tudo ao github, git add . --- commit ----	git push origin <nova_branch>
 	- git branch
 		 (Mostra todas as branchs dentro do repositório)
 	- não desenvolvemos ou fazemos testes na branch MAIN
 	- git branch -M <nome_de_outra_branch> 
 		(Cria uma branch e entra na branch criada)
+	- git branch -a 
+		(verifica todas as branchs; em verde são as locais; em vermelho são as remotas.)
 	
 27. Para sair da branch é
 	git checkout main
 	git checkout master
+	Para ir para outras branchs é:
+		git checkout <nome_da_branch>
+		
 28. Unificar os conteúdos das branchs
 	git merge <nome_da_branch>
 29. Arrumar conflitos dentro dos arquivos. Faz add, commit e push
@@ -70,10 +77,15 @@
 	- git tag
 	- git show v1.0
 	- git push origin --tags
+	
 31. Insert ou shift + insert> cola no git bash
+
 32. git clone
 	-Baixar e clonar um repositório de outra pessoa, para fazer uma colaboração
 	- git clone https://github...
+	
+33. git fetch
+	traz as branchs remotas para o local
 
 
 
